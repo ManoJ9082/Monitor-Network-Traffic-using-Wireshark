@@ -1,6 +1,7 @@
-# 📡 Monitor Network Traffic using Wireshark
 
-A hands-on project to capture, analyze, and monitor network traffic using **Wireshark**, one of the most popular network protocol analyzers. This project demonstrates traffic monitoring, protocol filtering, and identifying potentially suspicious network activity.
+# 📶 Monitor Network Traffic using Wireshark
+
+A practical network traffic monitoring project leveraging **Wireshark**, one of the most powerful open-source network protocol analyzers. This project demonstrates capturing, analyzing, and interpreting network packets in a controlled environment for cybersecurity monitoring and troubleshooting.
 
 ---
 
@@ -19,53 +20,105 @@ A hands-on project to capture, analyze, and monitor network traffic using **Wire
 
 ## 📡 Overview
 
-Network traffic analysis is crucial for identifying performance bottlenecks, malicious activities, and misconfigurations. In this project, Wireshark is used to capture live network traffic and analyze packet details for HTTP, DNS, ARP, and ICMP protocols.
+In this project, I utilized **Wireshark** to capture and analyze real-time network traffic. The primary focus was on identifying different protocols, examining packet structures, filtering specific traffic types, and detecting potential anomalies or suspicious behavior in a network environment.
 
 ---
 
 ## 🎯 Objectives
 
-- Install and configure Wireshark.
-- Capture live network traffic.
-- Apply display filters for specific protocols.
-- Analyze captured packets in detail.
-- Identify suspicious or abnormal network activities.
-- Document findings and learnings.
+- Set up **Wireshark** for packet capturing.
+- Monitor and capture real-time network traffic.
+- Apply filters to isolate specific protocols (HTTP, DNS, ARP, TCP, etc.).
+- Analyze captured packet data for insights and anomalies.
+- Understand packet structures, headers, and payloads.
+- Document findings and observations.
 
 ---
 
 ## 🛠️ Tools Used
 
-| Tool       | Purpose                       |
-|------------|--------------------------------|
-| **Wireshark** | Network traffic capture and analysis |
-| **Windows 11 / Kali Linux** | Host OS for testing |
-| **Chrome Browser** | For generating HTTP/HTTPS traffic |
-| **Ping / Traceroute** | ICMP packet generation |
+| Tool       | Purpose                            |
+|------------|-------------------------------------|
+| **Wireshark** | Network packet capture and analysis |
+| **Kali Linux / Windows 11** | Test environment |
+| **Chrome/Firefox** | Generate HTTP/DNS traffic |
+| **Command Prompt / Terminal** | Test with `ping`, `tracert`, etc. |
 
 ---
 
 ## 📑 Project Workflow
 
-### 1️⃣ Install Wireshark
-Download and install the latest Wireshark version from [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
+1. **Install Wireshark**  
+   Download and install Wireshark from the official website.
 
-### 2️⃣ Capture Live Traffic
-- Launch Wireshark.
-- Select the active network interface (e.g., Ethernet, Wi-Fi).
-- Click **Start Capturing Packets**.
+2. **Select Network Interface**  
+   Choose the active network interface to capture traffic.
 
-### 3️⃣ Apply Display Filters
-To focus on specific traffic:
-- HTTP Traffic: `http`
-- DNS Queries: `dns`
-- ICMP (Ping): `icmp`
-- ARP Packets: `arp`
-- Traffic from specific IP: `ip.addr == 192.168.1.1`
+3. **Start Packet Capture**  
+   Begin capturing live traffic on the selected interface.
 
-### 4️⃣ Generate Sample Traffic
-- Open browser and visit several websites.
-- Use terminal:
-  ```bash
-  ping 8.8.8.8
-  nslookup www.google.com
+4. **Generate Traffic**  
+   - Open websites.
+   - Perform DNS lookups.
+   - Use `ping` and `tracert` commands.
+   - Download files to generate HTTP and TCP traffic.
+
+5. **Apply Filters**  
+   Example filters:
+   - `http`
+   - `dns`
+   - `icmp`
+   - `tcp.port == 80`
+   - `ip.addr == <target IP>`
+
+6. **Analyze Packets**  
+   Examine packet details:
+   - Source and destination addresses
+   - Protocol information
+   - Header values and payload data
+
+7. **Save and Export Captures**  
+   Save `.pcapng` files for documentation and future analysis.
+
+8. **Document Observations**  
+   Note protocol behaviors, response times, anomalies, and unusual traffic patterns.
+
+---
+
+## 📸 Screenshots
+
+| Description                     | Screenshot |
+|:---------------------------------|:------------|
+| Wireshark capturing traffic      | ![Capture Screenshot](screenshots/capture.png) |
+| Applied HTTP Filter              | ![HTTP Filter](screenshots/http_filter.png) |
+| Packet Detail Pane View          | ![Packet Details](screenshots/packet_details.png) |
+
+*(Replace placeholders with actual images in your project repo)*
+
+---
+
+## 📊 Sample Captures
+
+- **HTTP Request and Response**
+- **DNS Query for Domain Name Resolution**
+- **ICMP Echo Request (Ping)**
+- **TCP 3-Way Handshake**
+
+*Captured `.pcapng` files are available in the `captures/` folder.*
+
+---
+
+## 📚 Learnings
+
+- Familiarity with **Wireshark’s interface** and key functionalities.
+- Practical understanding of **common network protocols** (TCP, UDP, HTTP, DNS, ARP).
+- Techniques to **apply filters and isolate specific traffic**.
+- Ability to **interpret packet structures** and headers.
+- Recognition of **potential network anomalies and irregular traffic patterns**.
+
+---
+
+## 🔒 Disclaimer
+
+> This project was conducted in a **controlled lab/test environment**.  
+> Capturing or analyzing network traffic without consent on a public or private network may be **illegal and unethical**. Always ensure you have proper authorization before monitoring any network.
