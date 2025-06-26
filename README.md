@@ -89,13 +89,13 @@ In this project, I utilized **Wireshark** to capture and analyze real-time netwo
 
 | Description                     | Screenshot |
 |:---------------------------------|:------------|
-| Applied DNS Filter               | ![DNS Filter](![dns filter](https://github.com/user-attachments/assets/20b6d463-db8a-42cf-b3df-750d7b01bf32)) |
-| Applied HTTP Filter              | ![HTTP Filter](![http filter](https://github.com/user-attachments/assets/809a2b0b-9664-479c-ac93-28152f9dbb26)) |
-| Packet Detail Pane View          | ![Packet Details pane view](![packet detail panel view](https://github.com/user-attachments/assets/b86fc46f-3615-4ef6-99a4-1a8114dacc88)) |
-| SYN flag set, indicating the     | ![SYN FLAG SET](![http response code](https://github.com/user-attachments/assets/fa7f535d-8563-4c42-b26c-30a2c1985f80)) |
+| Applied DNS Filter               | ![DNS Filter](https://github.com/user-attachments/assets/20b6d463-db8a-42cf-b3df-750d7b01bf32) |
+| Applied HTTP Filter              | ![HTTP Filter](![http filter](https://github.com/user-attachments/assets/809a2b0b-9664-479c-ac93-28152f9dbb26) |
+| Packet Detail Pane View          | ![Packet Details pane view](![packet detail panel view](https://github.com/user-attachments/assets/b86fc46f-3615-4ef6-99a4-1a8114dacc88) |
+| SYN flag set, indicating the     | ![SYN FLAG SET](![http response code](https://github.com/user-attachments/assets/fa7f535d-8563-4c42-b26c-30a2c1985f80) |
 | start of a new TCP connection    
-| Applied Tcp Filter               | ![Tcp Filter](![tcp filter](https://github.com/user-attachments/assets/e7b1eae9-a0d4-4231-ac9e-cc78eadc5b68)) |
-| TCP Analysis Flags               | ![TCP Analysis Flags](![tcp analysis flags](https://github.com/user-attachments/assets/01a78dd4-31d3-46be-9556-2f4cf863cf07)) | 
+| Applied Tcp Filter               | ![Tcp Filter](![tcp filter](https://github.com/user-attachments/assets/e7b1eae9-a0d4-4231-ac9e-cc78eadc5b68) |
+| TCP Analysis Flags               | ![TCP Analysis Flags](![tcp analysis flags](https://github.com/user-attachments/assets/01a78dd4-31d3-46be-9556-2f4cf863cf07) | 
  
 *(Replace placeholders with actual images in your project repo)*
 
