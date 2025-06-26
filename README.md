@@ -92,8 +92,7 @@ In this project, I utilized **Wireshark** to capture and analyze real-time netwo
 | Applied DNS Filter               | ![DNS Filter](https://github.com/user-attachments/assets/20b6d463-db8a-42cf-b3df-750d7b01bf32) |
 | Applied HTTP Filter              | ![HTTP Filter](https://github.com/user-attachments/assets/809a2b0b-9664-479c-ac93-28152f9dbb26) |
 | Packet Detail Pane View          | ![Packet Details pane view](https://github.com/user-attachments/assets/b86fc46f-3615-4ef6-99a4-1a8114dacc88) |
-| SYN flag set, indicating the     | ![SYN FLAG SET](https://github.com/user-attachments/assets/fa7f535d-8563-4c42-b26c-30a2c1985f80) |
-| start of a new TCP connection    
+| SYN flag set, indicating thestart of a new TCP connection    | ![SYN FLAG SET](https://github.com/user-attachments/assets/fa7f535d-8563-4c42-b26c-30a2c1985f80) |    
 | Applied Tcp Filter               | ![Tcp Filter](https://github.com/user-attachments/assets/e7b1eae9-a0d4-4231-ac9e-cc78eadc5b68) |
 | TCP Analysis Flags               | ![TCP Analysis Flags](https://github.com/user-attachments/assets/01a78dd4-31d3-46be-9556-2f4cf863cf07) | 
  
